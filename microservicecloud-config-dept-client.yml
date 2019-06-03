@@ -5,11 +5,10 @@ spring:
 ---
 server:
   port: 8001
-
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-dept-client
+    name: microservicecloud-dept
   datasource:
     # 配置数据源
     driver-class-name: com.mysql.jdbc.Driver
@@ -46,11 +45,10 @@ info:
 ---
 server:
   port: 8001
-
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-dept-client
+    name: microservicecloud-dept
   datasource:
     # 配置数据源
     driver-class-name: com.mysql.jdbc.Driver
